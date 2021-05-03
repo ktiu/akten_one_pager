@@ -1,0 +1,12 @@
+title:              Sind die NSU-Akten schon da?
+baseurl:            ""
+
+# Social Profiles
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap 

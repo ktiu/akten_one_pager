@@ -1,0 +1,45 @@
+// Bootstrap overrides for this template
+.btn, .dropdown-item {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+  @include sans-serif-font;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white;
+    background-color: lighten($primary, 10%) !important;
+    border-color: lighten($primary, 10%) !important;
+  }
+}
+
+.btn-outline-secondary {
+  border-color: $secondary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white;
+    background-color: lighten($secondary, 10%) !important;
+    border-color: lighten($secondary, 10%) !important;
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary;
+  border-color: $secondary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white;
+    background-color: lighten($secondary, 10%) !important;
+    border-color: lighten($secondary, 10%) !important;
+  }
+}
